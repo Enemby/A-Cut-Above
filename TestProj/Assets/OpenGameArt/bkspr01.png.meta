@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 2735d15bff6f7f14e9f481655a5a556f
+timeCreated: 1568461218
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bkspr01_0
+    21300002: bkspr01_1
+    21300004: bkspr01_2
+    21300006: bkspr01_3
+    21300008: bkspr01_4
+    21300010: bkspr01_5
+    21300012: bkspr01_6
+    21300014: bkspr01_7
+    21300016: bkspr01_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 300
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bkspr01_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 457
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 419
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 301
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 328
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 167
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 51
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 180
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 98
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 41
+        width: 79
+        height: 104
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
