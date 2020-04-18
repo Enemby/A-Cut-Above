@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2735d15bff6f7f14e9f481655a5a556f
-timeCreated: 1568461218
+timeCreated: 1584177532
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -13,6 +13,13 @@ TextureImporter:
     21300012: bkspr01_6
     21300014: bkspr01_7
     21300016: bkspr01_8
+    21300018: bkspr01_9
+    21300020: bkspr01_10
+    21300022: bkspr01_11
+    21300024: bkspr01_12
+    21300026: bkspr01_13
+    21300028: bkspr01_14
+    21300030: bkspr01_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -81,7 +88,7 @@ TextureImporter:
     - name: bkspr01_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 31
         y: 301
         width: 74
         height: 102
@@ -101,22 +108,22 @@ TextureImporter:
     - name: bkspr01_4
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 167
         width: 76
         height: 93
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .53471452, y: .712765574}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bkspr01_5
       rect:
         serializedVersion: 2
         x: 28
-        y: 51
+        y: 52
         width: 66
         height: 86
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .519986987, y: .285254359}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bkspr01_6
       rect:
@@ -136,7 +143,7 @@ TextureImporter:
         width: 4
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: bkspr01_8
       rect:
@@ -145,8 +152,78 @@ TextureImporter:
         y: 41
         width: 79
         height: 104
+      alignment: 9
+      pivot: {x: .550094008, y: .309737951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 453
+        width: 86
+        height: 64
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_10
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 419
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_11
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 301
+        width: 79
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 390
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_13
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 328
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_14
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 99
+        width: 106
+        height: 182
+      alignment: 9
+      pivot: {x: .63689208, y: .731937885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bkspr01_15
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 179
+        width: 76
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

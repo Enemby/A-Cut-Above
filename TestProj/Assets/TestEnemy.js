@@ -11,7 +11,7 @@ var sprites : Sprite[];
 var animateDelay : float = 0.1;
 var mySprite : int = 0;
 var lunging : boolean = false;
-private var health = 2;
+var health = 2;
 function Start(){
 	myRenderer = this.GetComponent("SpriteRenderer");
 	startColor = myRenderer.color;
