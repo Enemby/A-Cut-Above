@@ -15,8 +15,10 @@ function Start () {
 
 function Update () {
 	levelIndex = Application.loadedLevel;
-	GameplayMusicLogic();
-	PlayMusic();
+	if(mySoundIndex[0] != null){
+		GameplayMusicLogic();
+		PlayMusic();
+	}
 }
 function PlayMusic(){//If there's not a track playing, play a track.
 	if(myAudioSource.isPlaying == false){

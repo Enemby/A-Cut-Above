@@ -1,6 +1,6 @@
 ﻿var volume : float = 1;
 var myScript : MonoBehaviour;
-private myUI : UI.Slider;
+private var myUI : UI.Slider;
 function Start(){
 	
 }
