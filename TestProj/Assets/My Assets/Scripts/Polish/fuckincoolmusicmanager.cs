@@ -13,21 +13,21 @@ public partial class fuckincoolmusicmanager : MonoBehaviour
     public float masterVolume;
     public virtual void Start()
     {
-        UnityEngine.Object.DontDestroyOnLoad(this.transform.gameObject);
-        this.myAudioSource = (AudioSource) this.GetComponent(typeof(AudioSource));
+        DontDestroyOnLoad(this.gameObject);
+        myAudioSource = GetComponent<AudioSource>();
         if (PlayerPrefs.HasKey("MasterVolume"))
         {
-            this.masterVolume = PlayerPrefs.GetFloat("MasterVolume");
+            masterVolume = PlayerPrefs.GetFloat("MasterVolume");
         }
     }
 
     public virtual void Update()
     {
-        this.levelIndex = Application.loadedLevel;
-        if (this.mySoundIndex[0] != null)
+        levelIndex = Application.loadedLevel;
+        if (mySoundIndex[0] != null)
         {
-            this.GameplayMusicLogic();
-            this.PlayMusic();
+            GameplayMusicLogic();
+            PlayMusic();
         }
     }
 
@@ -83,10 +83,4 @@ public partial class fuckincoolmusicmanager : MonoBehaviour
             this.myGameplayIndex = 0;
         }
     }
-
-    public fuckincoolmusicmanager()
-    {
-        this.masterVolume = 1;
-    }
-
 }

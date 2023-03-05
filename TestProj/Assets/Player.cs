@@ -42,7 +42,7 @@ public partial class Player : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             moving = true;
-            slashTimer = this.speed;
+            slashTimer = speed;
         }
         /*
 		var myCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -70,7 +70,7 @@ public partial class Player : MonoBehaviour
         }
         else
         {
-            this.hitEnemy = false;
+            hitEnemy = false;
         }
         this.transform.up = myVector - this.transform.position;
 
@@ -85,13 +85,13 @@ public partial class Player : MonoBehaviour
         hitLogic();
     }
 
-    public virtual void Hit()
+    public void Hit()
     {
         hit = true;
         health = health - 1;
     }
 
-    public virtual void hitLogic()
+    public void hitLogic()
     {
         if (hit == true)
         {
@@ -102,7 +102,7 @@ public partial class Player : MonoBehaviour
                 hit = false;
                 if (health <= 0)
                 {
-                    Destroy(this.gameObject);
+                    //Destroy(this.gameObject);
                     gameOverObj.active = true;
                 }
             }
@@ -114,7 +114,7 @@ public partial class Player : MonoBehaviour
         }
     }
 
-    public virtual void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (moving == true)
         {
@@ -134,7 +134,7 @@ public partial class Player : MonoBehaviour
         }
     }
 
-    public virtual void OnTriggerStay2D(Collider2D other)
+    public void OnTriggerStay2D(Collider2D other)
     {
         if (moving == false)
         {
@@ -144,13 +144,4 @@ public partial class Player : MonoBehaviour
             }
         }
     }
-
-    public void player()
-    { //Unncessary constructor
-        speed = 0.1f;
-        slashTimer = 0.1f;
-        rushTime = 1.1f;
-        health = 3;
-    }
-
 }
